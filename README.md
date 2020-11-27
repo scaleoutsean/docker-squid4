@@ -165,7 +165,7 @@ ExecStart=/usr/bin/docker run --net=host --rm \
     -e MITM_CERT=/local_mitm.crt \
     -e MITM_PROXY=yes \
     --name squid4 \
-    squid
+    wrouesnel/docker-squid4
 
 [Install]
 WantedBy=multi-user.target
