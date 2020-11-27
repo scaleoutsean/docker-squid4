@@ -138,7 +138,7 @@ docker run -it -p 3128:127.0.0.1:3128 --rm \
     -e MITM_CERT=/local-mitm.crt \
     -e MITM_KEY=/local-mitm.pem \
     -e MITM_PROXY=yes \
-    squid
+    wrouesnel/docker-squid4
 ```
 
 Note that it doesn't really matter where we mount the certificate - the image
